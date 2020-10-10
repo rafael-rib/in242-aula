@@ -3,6 +3,8 @@ import paho.mqtt.client as mqtt
 import random
 import json
 
+# ...
+
 print('Conectando ao MQTT Broker...')
 mqtt_client = mqtt.Client()
 mqtt_client.connect('localhost', 1883)
