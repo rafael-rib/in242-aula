@@ -7,7 +7,7 @@ import json
 
 print('Conectando ao MQTT Broker...')
 mqtt_client = mqtt.Client()
-mqtt_client.connect('localhost', 1883)
+mqtt_client.connect('localhost', 1883) # In the server : in242.rafael.ribeiro.xyz
 
 temperatura = random.uniform(34, 40)
 print(temperatura)
